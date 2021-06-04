@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+    font-family: 'Poppins';
+    background-color: #c1cad9;
+    margin: 10px;
+}
+
+.flex-container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.full-box {
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-75 {
+	width: 75%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.pull-left {
+	float: left;
+}
+
+.menu-list li{
+	display: inline;
+	padding: 20px;
+}
+
+.main-container {
+	height: 100%;
+}
+
+.logo {
+	display: flex;
+  	align-items: center;
+}
+
+.logo span {
+	padding-left: 10px;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.detail {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 10%;
+}
+
+.detail img {
+	height: 100%;
+}
+
+.text-space div {
+	margin-bottom: 20px;
+}
+
+.s-text {
+	font-size: 12px;
+}
+
+.letter-space {
+	letter-spacing: 7px;
+}
+
+.v-lg-text {
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 70px;
+}
+
+.display-column {
+	flex-direction: column;
+}
+
+.image-space {
+	height: 100%;
+}
+
+
+.custom-btn {
+	background-color: transparent;
+	border: 2px solid #FF497C;
+	border-radius: 25px 25px 25px 25px;
+	padding: 20px;
+}
+
+@media (max-width: 800px) {
+	.flex-container {
+		flex-direction: column;
+	}
+
+	.image-space {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+}

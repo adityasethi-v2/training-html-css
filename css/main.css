@@ -107,13 +107,14 @@ html, body {
 
 .detail {
 	display: flex;
-	align-items: center;
-	height: 100%;
-	padding: 0 10%;
-}
-
-.detail img {
-	height: 100%;
+	flex: 50%;
+    align-items: center;
+    height: 100%;
+    padding: 0 10%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 90%;
+    background-image: url(../assets/slider-1.png);
 }
 
 .text-space div {
@@ -141,6 +142,7 @@ html, body {
 
 .display-column {
 	flex-direction: column;
+	width: 50%;
 }
 
 .image-space {
@@ -514,8 +516,12 @@ ul li:hover {
 		flex-direction: column;
 	}
 
-	.image-space {
-		display: none;
+	.detail {
+		background-image: none;
+	}
+
+	.display-column {
+		width: 100%;
 	}
 
 	.menu-top {

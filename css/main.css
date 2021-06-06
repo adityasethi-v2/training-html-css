@@ -67,9 +67,16 @@ html, body {
 	float: right;
 }
 
+.menu-list {
+	text-align: center;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
 .menu-list li{
 	display: inline;
-	padding: 20px;
+	margin: 20px;
+	line-height: 30px;
 }
 
 .main-container {
@@ -351,7 +358,7 @@ html, body {
 }
 
 .imglist {
-	height: 180px;
+	height: 200px;
 	flex: 20%;
 	background-size: 100% 100%;
 }
@@ -457,10 +464,23 @@ html, body {
 .a-center {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 ul li:hover {
 	color: #FF497C;
+}
+
+.mobile-show {
+	display: none;
+}
+
+.f-75 {
+	flex: 75%;
+}
+
+.f-25 {
+	flex: 25%;
 }
 
 @media (max-width: 800px) {
@@ -476,7 +496,16 @@ ul li:hover {
 		display: none;
 	}
 
-	.menu {
+	.menu-top {
 		display: none;
 	}
+
+	.mobile-hide {
+		display: none;
+	}
+
+	.mobile-show {
+		display: inline-block;
+	}
+
 }

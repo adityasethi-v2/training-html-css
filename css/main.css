@@ -459,6 +459,10 @@ html, body {
 	align-items: center;
 }
 
+ul li:hover {
+	color: #FF497C;
+}
+
 @media (max-width: 800px) {
 	.flex-container {
 		flex-direction: column;

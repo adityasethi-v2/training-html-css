@@ -35,6 +35,10 @@ html, body {
 	width: 25%;
 }
 
+.w-33 {
+	width: 33%;
+}
+
 .w-75 {
 	width: 75%;
 }
@@ -100,6 +104,11 @@ html, body {
 	line-height: 70px;
 }
 
+.c-text {
+	font-weight: bold;
+	font-size: 36px;
+}
+
 .display-column {
 	flex-direction: column;
 }
@@ -118,6 +127,11 @@ html, body {
 
 .info-tile-33 {
 	flex: 33%;
+}
+
+.c-50 {
+	width: 50%;
+	margin: 15px 0px;
 }
 
 .info-tile-50 {
@@ -188,6 +202,28 @@ html, body {
 	background-size: 100% 100%;
 }
 
+.c-logo {
+	width: 60px;
+	height: 60px;
+	background-size: 100% 100%;
+}
+
+.counter-1 {
+	background-image: url('../assets/counter_img1.png');
+}
+
+.counter-2 {
+	background-image: url('../assets/counter_img2.png');
+}
+
+.counter-3 {
+	background-image: url('../assets/counter_img3.png');
+}
+
+.counter-4 {
+	background-image: url('../assets/counter_img4.png');
+}
+
 .l-grey {
 	background: #F3F2F7;
 	padding: 80px 60px;
@@ -197,6 +233,121 @@ html, body {
 	background-color: #293040;
 	padding: 80px 60px;
 }
+
+.d-grey-no-padding-left {
+	background-color: #293040;
+	padding: 80px 0px;
+}
+
+.d-white {
+	background-color: #FFFFFF;
+	padding: 80px 60px;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.t-right {
+	text-align: right;
+}
+
+.t-left {
+	text-align: left;
+}
+
+.m-logo {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-size: 100% 100%;
+}
+
+.milestone-box {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0px;
+}
+
+.strategy {
+	background-image: url('../assets/img_9-600x600.jpg');
+}
+
+.design {
+	background-image: url('../assets/img_3-600x600.jpg');
+}
+
+.develop {
+	background-image: url('../assets/img_8-600x600.jpg');
+}
+
+.support {
+	background-image: url('../assets/img_2-600x600.jpg');
+}
+
+.m-title {
+	font-size: 16px;
+}
+
+.pink {
+	color: #FF497C;
+}
+
+.green {
+	color: #CFE2A8;
+}
+
+.blue {
+	color: #22C1A2;
+}
+
+.orange {
+	color: #F38848;
+}
+
+.m-15 {
+	margin: 0px 15px;
+}
+
+.image-list {
+	padding: 0px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.image-list li{
+	list-style: none;
+	height: 180px;
+	width: 20%;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.img-15 {
+	background-image: url("../assets/img_15-1170x780.jpg")
+}
+
+.img-16 {
+	background-image: url("../assets/img_16-1170x780.jpg")
+}
+
+.img-17 {
+	background-image: url("../assets/img_17-1170x780.jpg")
+}
+
+.img-18 {
+	background-image: url("../assets/img_18-1170x780.jpg")
+}
+
+.img-19 {
+	background-image: url("../assets/img_19-1170x780.jpg")
+}
+
+
+
 
 @media (max-width: 800px) {
 	.flex-container {

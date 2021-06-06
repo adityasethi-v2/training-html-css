@@ -27,6 +27,10 @@ html, body {
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+.w-20 {
+	width: 20%;
+}
+
 .w-25 {
 	width: 25%;
 }
@@ -41,6 +45,10 @@ html, body {
 
 .pull-left {
 	float: left;
+}
+
+.pull-right {
+	float: right;
 }
 
 .menu-list li{
@@ -105,7 +113,7 @@ html, body {
 	background-color: transparent;
 	border: 2px solid #FF497C;
 	border-radius: 25px 25px 25px 25px;
-	padding: 20px;
+	padding: 20px 40px;
 }
 
 .info-tile-33 {
@@ -116,12 +124,18 @@ html, body {
 	flex: 50%;
 }
 
-.height-200 {
-	min-height: 200px;
+.height-100 {
+	min-height: 100px;
 }
 
-.height-300 {
-	min-height: 300px;
+.height-500 {
+	min-height: 500px;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	padding: 60px;
 }
 
 .pink-box {
@@ -132,9 +146,56 @@ html, body {
 	background-color: #c1cad9;
 }
 
-
 .white-box {
 	background-color: #ffffff;
+}
+
+.tile-title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.tile-desc {
+	font-size: 14px;
+}
+
+.t-logo {
+	width: 60px;
+	height: 50px;
+	margin: -45px 20px 0px 0px;
+	background-size: 100% 100%;
+}
+
+.ad-logo {
+	background-image: url('../assets/white-icon.png');
+}
+
+.iot-logo {
+	background-image: url('../assets/color-icon.png');
+}
+
+.ml-logo {
+	background-image: url('../assets/color-icon2.png');	
+}
+
+.home-img {
+	background-image: url('../assets/home3_alt_half_media1.jpg');
+	background-size: 100% 100%;
+}
+
+.home2-img {
+	background-image: url('../assets/home3_alt_half_media2.jpg');
+	background-size: 100% 100%;
+}
+
+.l-grey {
+	background: #F3F2F7;
+	padding: 80px 60px;
+}
+
+.d-grey {
+	background-color: #293040;
+	padding: 80px 60px;
 }
 
 @media (max-width: 800px) {

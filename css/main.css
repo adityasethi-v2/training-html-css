@@ -67,6 +67,13 @@ html, body {
 	float: right;
 }
 
+.menu-icon {
+	width: 40px;
+	height: 40px;
+	background-image: url('../assets/menu-icon.png');
+	background-size: 100% 100%; 
+}
+
 .menu-list {
 	text-align: center;
 	margin-left: 0px;
@@ -506,6 +513,10 @@ ul li:hover {
 
 	.mobile-show {
 		display: inline-block;
+	}
+
+	.head {
+		background: #ffffff;
 	}
 
 }

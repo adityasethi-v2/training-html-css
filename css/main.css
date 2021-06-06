@@ -544,4 +544,8 @@ ul li:hover {
 		flex-direction: column;
 	}
 
+	.mobile-w {
+		width: 100%;
+	}
+
 }

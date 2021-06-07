@@ -1,7 +1,19 @@
+:root {
+	--mainGreyBg: #c1cad9;
+	--pink: #FF497C;
+	--white: #ffffff;
+	--lightGrey: #F3F2F7;
+	--darkGrey: #293040;
+	--darkButton: #DEE2E5;
+	--green: #CFE2A8;
+	--blue: #22C1A2;
+	--orange: #F38848;
+}
+
 html, body {
     height: 100%;
     font-family: 'Poppins';
-    background-color: #c1cad9;
+    background-color: var(--mainGreyBg);
     margin: 0px;
 }
 
@@ -152,7 +164,7 @@ html, body {
 
 .custom-btn {
 	background-color: transparent;
-	border: 2px solid #FF497C;
+	border: 2px solid var(--pink);
 	border-radius: 25px 25px 25px 25px;
 	padding: 20px 40px;
 }
@@ -185,15 +197,15 @@ html, body {
 }
 
 .pink-box {
-	background-color: #FF497C;
+	background-color: var(--pink);
 }
 
 .grey-box {
-	background-color: #F3F2F7;
+	background-color: var(--lightGrey);
 }
 
 .white-box {
-	background-color: #ffffff;
+	background-color: var(--white);
 }
 
 .t-ivory {
@@ -205,7 +217,7 @@ html, body {
 }
 
 .t-white {
-	color: #ffffff;
+	color: var(--white);
 }
 
 .t-light-grey {
@@ -278,27 +290,27 @@ html, body {
 }
 
 .l-grey {
-	background: #F3F2F7;
+	background: var(--lightGrey);
 	padding: 80px 60px;
 }
 
 .l-grey-no-padding {
-	background: #F3F2F7;
+	background: var(--lightGrey);
 	padding: 80px 0px;
 }
 
 .d-grey {
-	background-color: #293040;
+	background-color: var(--darkGrey);
 	padding: 80px 60px;
 }
 
 .d-grey-no-padding-left {
-	background-color: #293040;
+	background-color: var(--darkGrey);
 	padding: 80px 0px;
 }
 
 .d-white {
-	background-color: #FFFFFF;
+	background-color: var(--white);
 	padding: 80px 60px;
 }
 
@@ -351,19 +363,19 @@ html, body {
 }
 
 .pink {
-	color: #FF497C;
+	color: var(--pink);
 }
 
 .green {
-	color: #CFE2A8;
+	color: var(--green);
 }
 
 .blue {
-	color: #22C1A2;
+	color: var(--blue);
 }
 
 .orange {
-	color: #F38848;
+	color: var(--orange);
 }
 
 .m-15 {
@@ -436,7 +448,7 @@ html, body {
 }
 
 .d-btn {
-	color: #DEE2E5;
+	color: var(--darkButton);
 	font-size: 24px;
 	line-height: 24px;
 }
@@ -448,7 +460,7 @@ html, body {
 }
 
 .white-bg {
-	background: #ffffff;
+	background: var(--white);
 }
 
 .contact-us {
@@ -475,7 +487,7 @@ html, body {
 
 .footer-pg {
 	padding: 20px 0px;
-	background-color: #293040;
+	background-color: var(--darkGrey);
 }
 
 .a-center {
@@ -485,7 +497,7 @@ html, body {
 }
 
 ul li:hover {
-	color: #FF497C;
+	color: var(--pink);
 }
 
 .mobile-show {
@@ -537,7 +549,7 @@ ul li:hover {
 	}
 
 	.head {
-		background: #ffffff;
+		background: var(--white);
 	}
 
 	.milestone-box {

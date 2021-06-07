@@ -3,11 +3,15 @@
 	--pink: #FF497C;
 	--white: #ffffff;
 	--lightGrey: #F3F2F7;
-	--darkGrey: #293040;
+	--vdarkGrey: #293040;
+	--darkGrey: #17B7A82;
 	--darkButton: #DEE2E5;
 	--green: #CFE2A8;
 	--blue: #22C1A2;
 	--orange: #F38848;
+	--inputBg: #F4F4F6;
+	--connector: #c8c8c8;
+	--ivory: #DEF5FB;
 }
 
 html, body {
@@ -209,11 +213,11 @@ html, body {
 }
 
 .t-ivory {
-	color: #DEF5FB;
+	color: var(--ivory);
 }
 
 .t-dark-grey {
-	color: #7B7A82;
+	color: var(--darkGrey);
 }
 
 .t-white {
@@ -221,7 +225,7 @@ html, body {
 }
 
 .t-light-grey {
-	color: #c8c8c8;
+	color: var(--connector);
 }
 
 .tile-title {
@@ -300,12 +304,12 @@ html, body {
 }
 
 .d-grey {
-	background-color: var(--darkGrey);
+	background-color: var(--vdarkGrey);
 	padding: 80px 60px;
 }
 
 .d-grey-no-padding-left {
-	background-color: var(--darkGrey);
+	background-color: var(--vdarkGrey);
 	padding: 80px 0px;
 }
 
@@ -480,14 +484,14 @@ html, body {
 .form-input {
 	flex: 100%;
 	padding: 10px;
-	background: #F4F4F6;
+	background: var(--inputBg);
 	border: 0px;
 	margin: 5px;
 }
 
 .footer-pg {
 	padding: 20px 0px;
-	background-color: var(--darkGrey);
+	background-color: var(--vdarkGrey);
 }
 
 .a-center {
@@ -515,7 +519,7 @@ ul li:hover {
 .connector {
 	width: 0px;
 	height: 45px;
-	border: 2px dashed #c8c8c8;
+	border: 2px dashed var(--connector);
 	margin-left: 50%;
 }
 

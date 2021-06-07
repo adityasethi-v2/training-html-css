@@ -4,7 +4,7 @@
 	--white: #ffffff;
 	--lightGrey: #F3F2F7;
 	--vdarkGrey: #293040;
-	--darkGrey: #17B7A82;
+	--darkGrey: #7B7A82;
 	--darkButton: #DEE2E5;
 	--green: #CFE2A8;
 	--blue: #22C1A2;
@@ -12,6 +12,8 @@
 	--inputBg: #F4F4F6;
 	--connector: #c8c8c8;
 	--ivory: #DEF5FB;
+
+	--smallText: 12px;
 }
 
 html, body {
@@ -138,7 +140,7 @@ html, body {
 }
 
 .s-text {
-	font-size: 12px;
+	font-size: var(--smallText);
 }
 
 .letter-space {

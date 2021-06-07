@@ -14,6 +14,11 @@
 	--ivory: #DEF5FB;
 
 	--smallText: 12px;
+	--tileDesc: 14px;
+	--mTile: 16px;
+	--tileTitle: 20px;
+	--buttonFontSize: 24px;
+	--tiltTitleLg: 26px;
 }
 
 html, body {
@@ -231,17 +236,17 @@ html, body {
 }
 
 .tile-title {
-	font-size: 20px;
+	font-size: var(--tileTitle);
 	margin-bottom: 10px;
 }
 
 .tile-title-lg {
-	font-size: 26px;
+	font-size: var(--tiltTitleLg);
 	margin-bottom: 10px;
 }
 
 .tile-desc {
-	font-size: 14px;
+	font-size: var(--tileDesc);
 }
 
 .t-logo {
@@ -365,7 +370,7 @@ html, body {
 }
 
 .m-title {
-	font-size: 16px;
+	font-size: var(--mTile);
 }
 
 .pink {
@@ -455,8 +460,8 @@ html, body {
 
 .d-btn {
 	color: var(--darkButton);
-	font-size: 24px;
-	line-height: 24px;
+	font-size: var(--buttonFontSize);
+	line-height: var(--buttonFontSize);
 }
 
 .news-box {

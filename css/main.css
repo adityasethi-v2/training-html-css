@@ -58,6 +58,10 @@ html, body {
 	margin-top: 20px;
 }
 
+.m-t-10 {
+	margin-top: 10px;
+}
+
 .m-b-20 {
 	margin-bottom: 20px;
 }
@@ -528,6 +532,14 @@ ul li:hover {
 	height: 45px;
 	border: 2px dashed var(--connector);
 	margin-left: 50%;
+}
+
+.author {
+	width: 20px;
+	height: 17px;
+	background-image: url('../assets/small_author.png');
+	background-size: 100% 100%;
+	margin: auto;
 }
 
 @media (max-width: 800px) {
